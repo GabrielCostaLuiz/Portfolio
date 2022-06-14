@@ -27,7 +27,9 @@ export function Links() {
 
       <ul>
         <li>
-          <a href="#sobre">Sobre</a>
+          <a className="linnk" href="#sobre">
+            Sobre
+          </a>
         </li>
         <li>
           <a href="#projetos">Projetos</a>

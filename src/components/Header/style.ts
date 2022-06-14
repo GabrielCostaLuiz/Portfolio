@@ -9,6 +9,7 @@ export const Container = styled.header`
     justify-content: space-between;
     align-items: center;
     margin-bottom: 9.6rem;
+    height: fit-content;
 
     a {
       font-weight: 500;
@@ -16,6 +17,10 @@ export const Container = styled.header`
       color: var(--text);
 
       text-decoration: none;
+
+      &:hover {
+        color: var(--button-top);
+      }
     }
 
     .toggleHome {
@@ -28,6 +33,13 @@ export const Container = styled.header`
       justify-content: space-between;
       gap: 6.5vw;
       list-style: none;
+
+      li {
+        transition: transform 0.4s;
+        &:hover {
+          transform: scale(115%);
+        }
+      }
     }
   }
 
