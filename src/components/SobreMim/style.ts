@@ -112,6 +112,7 @@ export const Container = styled.section`
         font-size: 1.8rem;
         font-weight: 300;
         color: var(--text);
+        text-align: left;
       }
     }
 
