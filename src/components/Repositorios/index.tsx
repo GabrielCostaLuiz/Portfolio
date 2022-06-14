@@ -23,12 +23,10 @@ export function Repositorios({
     const imgs = document.querySelectorAll(".backImg");
     imgs.forEach((img) => {
       if (
-        img.getAttribute("title") === "GabrielCostaLuiz" ||
-        img.getAttribute("title") === "starting_to_react" ||
-        img.getAttribute("title") === "Portfolio-Desafios_Rocketseat" ||
-        img.getAttribute("title") === "Projeto_Integrador_Desktop" ||
-        img.getAttribute("title") === "Projeto_Integrador_API" ||
-        img.getAttribute("title") === "Projeto_Integrador_APP"
+        img.getAttribute("title") !== "baseReact" ||
+        img.getAttribute("title") !== "Bollpi" ||
+        img.getAttribute("title") !== "DoctorCare" ||
+        img.getAttribute("title") !== "ToDo_List" 
       ) {
         img.setAttribute("src", backProject);
       }
