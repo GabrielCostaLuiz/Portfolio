@@ -1,12 +1,11 @@
 import React from "react";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { TbBrandGithub } from "react-icons/tb";
 
 import { Container } from "./style";
 
-export default function Footer() {
+export function Footer() {
   return (
     <Container>
       <div>

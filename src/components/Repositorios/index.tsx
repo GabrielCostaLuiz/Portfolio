@@ -23,10 +23,10 @@ export function Repositorios({
     const imgs = document.querySelectorAll(".backImg");
     imgs.forEach((img) => {
       if (
-        img.getAttribute("title") !== "baseReact" ||
-        img.getAttribute("title") !== "Bollpi" ||
-        img.getAttribute("title") !== "DoctorCare" ||
-        img.getAttribute("title") !== "ToDo_List" 
+        img.getAttribute("title") !== "baseReact" &&
+        img.getAttribute("title") !== "Bollpi" &&
+        img.getAttribute("title") !== "DoctorCare" &&
+        img.getAttribute("title") !== "ToDo_List"
       ) {
         img.setAttribute("src", backProject);
       }
