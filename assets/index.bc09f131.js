@@ -135,7 +135,7 @@ Error generating stack: `+i.message+`
     top: 8rem;
     left: 3rem;
   }
-`;function Ph({buttonTrueOrFalse:e}){function t(n){e(n)}return Q(_h,{className:"toggleDarkOrLight",children:[x("div",{onClick:t}),x(mm,{size:16}),x(pm,{size:16})]})}function zh(){const[e,t]=ge.exports.useState(!1);function n(r){t(!e),document.querySelector("html").classList.toggle("white"),r==null||r.target.classList.toggle("active")}return Q("div",{className:"contLinks",children:[Q("div",{className:"toggleHome",children:[x(Ph,{buttonTrueOrFalse:n}),x("a",{href:"#home",children:"Home"})]}),Q("ul",{children:[x("li",{children:x("a",{href:"#sobre",children:"Sobre"})}),x("li",{children:x("a",{href:"#projetos",children:"Projetos"})}),x("li",{children:x("a",{href:"#skills",children:"Skills"})})]})]})}const Nh=yt.header`
+`;function Ph({buttonTrueOrFalse:e}){function t(n){e(n)}return Q(_h,{className:"toggleDarkOrLight",children:[x("div",{onClick:t}),x(mm,{size:16}),x(pm,{size:16})]})}function zh(){const[e,t]=ge.exports.useState(!1);function n(r){t(!e),document.querySelector("html").classList.toggle("white"),r==null||r.target.classList.toggle("active")}return Q("div",{className:"contLinks",children:[Q("div",{className:"toggleHome",children:[x(Ph,{buttonTrueOrFalse:n}),x("a",{href:"#home",children:"Home"})]}),Q("ul",{children:[x("li",{children:x("a",{className:"linnk",href:"#sobre",children:"Sobre"})}),x("li",{children:x("a",{href:"#projetos",children:"Projetos"})}),x("li",{children:x("a",{href:"#skills",children:"Skills"})})]})]})}const Nh=yt.header`
   padding-top: 2.7rem;
   margin-bottom: 26.3rem;
 
@@ -144,6 +144,7 @@ Error generating stack: `+i.message+`
     justify-content: space-between;
     align-items: center;
     margin-bottom: 9.6rem;
+    height: fit-content;
 
     a {
       font-weight: 500;
@@ -151,6 +152,10 @@ Error generating stack: `+i.message+`
       color: var(--text);
 
       text-decoration: none;
+
+      &:hover {
+        color: var(--button-top);
+      }
     }
 
     .toggleHome {
@@ -163,6 +168,13 @@ Error generating stack: `+i.message+`
       justify-content: space-between;
       gap: 6.5vw;
       list-style: none;
+
+      li {
+        transition: transform 0.4s;
+        &:hover {
+          transform: scale(115%);
+        }
+      }
     }
   }
 
