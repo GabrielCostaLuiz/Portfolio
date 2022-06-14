@@ -264,6 +264,7 @@ Error generating stack: `+i.message+`
   background-color: var(--background-card);
   border-radius: 1rem;
   box-shadow: 0px 0px 2px rgba(40, 38, 44, 0.15);
+  text-align: left;
 
   img {
     width: 100%;
@@ -389,6 +390,12 @@ Error generating stack: `+i.message+`
       }
     }
   }
+
+  @media (max-width: 700px) {
+    .infoProject {
+      grid-template-rows: auto 6rem;
+    }
+  }
 `;yt.article`
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -436,13 +443,16 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 768px) {
     text-align: center;
+  }
+
+  @media (max-width: 700px) {
     .allRepositorios {
       grid-template-columns: 1fr;
       row-gap: 3rem;
 
       article {
         text-align: left;
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
       }
     }
@@ -472,8 +482,9 @@ Error generating stack: `+i.message+`
     display: none;
   }
 `;function jh(){return x(Ih,{className:"returnTop",children:x("div",{className:"buttonTop",children:x("a",{href:"#header",children:x(Sh,{size:45})})})})}var Mh="/Portfolio/assets/git.bfc0abe1.svg",Dh="/Portfolio/assets/js.1e53973c.svg",Fh="/Portfolio/assets/react.e3dfa7b5.svg",Uh="/Portfolio/assets/styled.db16fe40.svg",Bh="/Portfolio/assets/ts.81e2f5f1.svg";const Vh=yt.section`
-  margin-top: 13.3rem;
+  margin-top: 11.3rem;
   margin-bottom: 18rem;
+  padding-top: 2rem;
 
   h2 {
     color: var(--text);
