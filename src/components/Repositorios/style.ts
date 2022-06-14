@@ -4,6 +4,7 @@ export const Container = styled.article`
   background-color: var(--background-card);
   border-radius: 1rem;
   box-shadow: 0px 0px 2px rgba(40, 38, 44, 0.15);
+  text-align: left;
 
   img {
     width: 100%;
@@ -127,6 +128,12 @@ export const Container = styled.article`
         border: 1px solid transparent;
         border-image: var(--gradient) 1;
       }
+    }
+  }
+
+  @media (max-width: 700px) {
+    .infoProject {
+      grid-template-rows: auto 6rem;
     }
   }
 `;

@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 13.3rem;
+  margin-top: 11.3rem;
   margin-bottom: 18rem;
+  padding-top: 2rem;
 
   h2 {
     color: var(--text);

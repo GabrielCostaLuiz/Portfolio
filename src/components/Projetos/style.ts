@@ -43,13 +43,16 @@ export const Container = styled.section`
 
   @media (max-width: 768px) {
     text-align: center;
+  }
+
+  @media (max-width: 700px) {
     .allRepositorios {
       grid-template-columns: 1fr;
       row-gap: 3rem;
 
       article {
         text-align: left;
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
       }
     }
