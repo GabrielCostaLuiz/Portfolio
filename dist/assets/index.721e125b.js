@@ -663,7 +663,7 @@ Error generating stack: `+i.message+`
       margin: auto;
     }
   }
-`;function Kh(){return Q(Yh,{id:"sobre",children:[x("div",{className:"Contimg",children:x("img",{src:Gh,alt:"Foto do Gabriel"})}),Q("div",{className:"sobremim",children:[x("h2",{children:"Sobre Mim"}),x("p",{children:"S\xE3o Paulo, Brasil"}),x("p",{children:"Sou Desenvolvedor Front-End, atualmente estudando e construindo aplica\xE7\xF5es em ReactJS com TypeScript e buscando promover mais conhecimentos em JavaScript, Styled-Components, metodologia BEM e entre outras linguagens/frameworks que acrescentem na minha evolu\xE7\xE3o como desenvolvedor."}),x("div",{className:"social",children:Q("a",{href:Qh,target:"_blank",rel:"noreferrer",children:[x(Wh,{}),"Curriculo"]})})]})]})}const Xh=yt.div`
+`;function Kh(){return Q(Yh,{id:"sobre",children:[x("div",{className:"Contimg",children:x("img",{src:Gh,alt:"Foto do Gabriel"})}),Q("div",{className:"sobremim",children:[x("h2",{children:"Sobre Mim"}),x("p",{children:"S\xE3o Paulo, Brasil"}),x("p",{children:"Sou Desenvolvedor Front-End, atualmente estudando e construindo aplica\xE7\xF5es em ReactJS com TypeScript e buscando promover mais conhecimento atrav\xE9s de projetos e estudos sobre outras linguagens, frameworks, metodologias e entre outros assuntos que agreguem para minha evolu\xE7\xE3o."}),x("div",{className:"social",children:Q("a",{href:Qh,target:"_blank",rel:"noreferrer",children:[x(Wh,{}),"Curriculo"]})})]})]})}const Xh=yt.div`
   max-width: 1099px;
   margin: 0 auto;
   padding-inline: 1rem;
