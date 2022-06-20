@@ -17,9 +17,9 @@ export function SobreMim() {
         <p>
           Sou Desenvolvedor Front-End, atualmente estudando e construindo
           aplicações em ReactJS com TypeScript e buscando promover mais
-          conhecimentos em JavaScript, Styled-Components, metodologia BEM e
-          entre outras linguagens/frameworks que acrescentem na minha evolução
-          como desenvolvedor.
+          conhecimento através de projetos e estudos sobre outras linguagens,
+          frameworks, metodologias e entre outros assuntos que agreguem para
+          minha evolução.
         </p>
 
         <div className="social">
