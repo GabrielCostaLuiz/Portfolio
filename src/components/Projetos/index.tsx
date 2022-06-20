@@ -60,16 +60,23 @@ export function Projetos() {
 
       <div className="allRepositorios">
         {allProjectsTrueOrFalse
-          ? repositorios.map((repositorio: IGetRepositorios) => (
-              <Repositorios
-                description={repositorio.description}
-                name={repositorio.name}
-                html_url={repositorio.html_url}
-                homepage={repositorio.homepage}
-                key={repositorio.id}
-                dualButton={repositorio.homepage !== ""}
-              />
-            ))
+          ? repositorios.map((repositorio: IGetRepositorios) => {
+              if (
+                repositorio.name !== "GabrielCostaLuiz" &&
+                repositorio.name !== "Portfolio"
+              ) {
+                return (
+                  <Repositorios
+                    description={repositorio.description}
+                    name={repositorio.name}
+                    html_url={repositorio.html_url}
+                    homepage={repositorio.homepage}
+                    key={repositorio.id}
+                    dualButton={repositorio.homepage !== ""}
+                  />
+                );
+              }
+            })
           : reposPadrao.map((repositorio: IGetRepositorios) => (
               <Repositorios
                 description={repositorio.description}
