@@ -1,3 +1,5 @@
+/* eslint-disable consistent-return */
+/* eslint-disable array-callback-return */
 import { useEffect, useState } from "react";
 
 import { Repositorios } from "../Repositorios";
